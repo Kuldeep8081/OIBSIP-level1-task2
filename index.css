@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.icons{
+    display: flex;
+    column-gap: 25px;
+}
+.icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: 2px solid #DB005B;
+}
+.icon{
+    outline-offset: 4px;
+}
+.icon:hover{
+    outline-offset: 0px;
+}
+.insta{
+    background-color:#DB005B ;
+}
+.insta:hover{
+    background-color:#db005b00;
+    outline:2px solid #DB005B;
+}
+.x{
+    background-color:#FC4F00 ;
+}
+.x:hover{
+    background-color:#fc500000;
+    outline:2px solid #FC4F00;
+}
+.lin{
+    background-color:#C07F00 ;
+}
+.lin:hover{
+    background-color:#c0800000;
+    outline:2px solid #C07F00;
+}
+.git{
+    background-color:#A459D1 ;
+}
+.git:hover{
+    background-color:#a559d100;
+    outline:2px solid #A459D1;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #213555;
+}
+header {
+    text-align: center;
+    background-color: #27005D;
+    padding: 5px;
+    color: #fff;
+border-bottom-left-radius:5%;
+border-bottom-right-radius: 5%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container-fluid-about {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     place-items: center;
+     overflow: hidden;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 35vw;
+    height: 50vw;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile h2 {
+    color: #3498db;
+    font-size: 4vw;
+}
+
+.profile p {
+    font-size: 2.5vw;
+}
+.profile-info {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile .profile-img  {
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile .profile-img img{
+    margin-top: 10px;
+   border-radius: 10%;
+   height: 22vw;
+   width: 30vw;
+}
+
+</style>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand-links">
+            <div class="logo">
+                <a href="#">Kuldeep's Portfolio</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://kuldeep8081.github.io/My_personal_portfolio.github.io/">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <div class="container-fluid-about">
+        <section class="profile">
+            <div class="profile-img"><img src="web.jpeg" alt=""></div>
+            <div class="profile-info">
+                <h2>Web Developer</h2>
+                <p>I love building web applications and creating engaging user experiences.</p>
+            </div>
+        </section>
+        <section class="profile">
+            <div class="profile-img"><img src="progammer.jpeg" alt=""></div>
+            <div class="profile-info">
+                <h2>Programmer</h2>
+                <p>I'm passionate about coding and solving complex problems through programming.</p>
+            </div>
+        </section>
+        <section class="profile">
+            <div class="profile-img"><img src="graphics.jpeg" alt=""></div>
+            <div class="profile-info">
+                <h2>Graphics Design</h2>
+                <p>I have a creative side too. I enjoy graphics design and telling stories through visuals.</p>
+            </div>
+        </section>
+        <section class="profile">
+            <div class="profile-img"><img src="engineer.jpeg" alt=""></div>
+            <div class="profile-info">
+                <h2>Computer Science Engineer</h2>
+                <p>My educational background is in computer science, which gives me a strong foundation.</p>
+            </div>
+        </section>
+</div>
+    <footer>
+        <div class="container-fluid">
+            <div class="container-1">
+                <h3>Phone :- 8081815895</h3>
+                <h3>Email :- kuldeep15072003kumar@gmail.com</h3>
+            </div>
+            <div class="container-2">
+    
+                <div class="icons">
+                    <img src="instagram.png" alt="" class="icon insta" />
+                    <img src="X1.png" alt="" class="icon x" />
+                    <img src="linkedln.png" alt="" class="icon lin" />
+                    <img src="github.png" alt="" class="icon git" />
+                </div>
+    
+            </div>
+            <div class="container-3">
+                <p>Copyright &copy; Kuldeepportfolio.com | All copyright reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

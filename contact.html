@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #150230;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h1{
+    background-color:#213555 ;
+    margin: 0;
+    padding: 20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    color: antiquewhite;
+}
+.contact-info {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    grid-gap: 10px;
+}
+
+.contact-item {
+    margin-top: 20px;
+    width: 40vw;
+    height: 35vw;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10%;
+    box-shadow: 0 0 6px 6px black;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px 12px black;
+}
+
+.contact-icon {
+    margin-top: 10px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon img {
+    height: 21vw;
+    width: 35vw;
+    border-radius: 10%;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#F0F0F0 ;
+}
+.contact-text a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vw;
+    color:#F0F0F0 ;
+}
+.contact-text p{
+    font-size: 2vw;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+    align-items: center;
+}
+hr{
+    width: 30vw;
+    margin-top: 40px;
+    border:5px solid rgb(10, 199, 108) ;
+}
+</style>
+<body>
+        <nav class="navbar">
+            <div class="nav-brand-links">
+                <div class="logo">
+                    <a href="#">Kuldeep's Portfolio</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://kuldeep8081.github.io/My_personal_portfolio.github.io/">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="phone.jpeg" alt="Phone Icon">
+                </div>
+                <div class="contact-text">
+                    <p>Phone No.</p>
+                    <a href="tel:8081815895">8081815895</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <img src="email.jpeg" alt="Email Icon">
+                </div>
+                <div class="contact-text">
+                    <p>Email</p>
+                    <a href="mailto:kuldeep15072003kumar@gmail.com">kuldeep15072003kumar@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <hr>
+    <div class="social">
+                    <div class="icons">
+                        <img src="instagram.png" alt="" class="icon insta" />
+                        <img src="X1.png" alt="" class="icon x" />
+                        <img src="linkedln.png" alt="" class="icon lin" />
+                        <img src="github.png" alt="" class="icon git" />
+                    </div>
+                    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="container-1">
+                <h3>Phone :- 8081815895</h3>
+                <h3>Email :- kuldeep15072003kumar@gmail.com</h3>
+            </div>
+            <div class="container-2">
+    
+                <div class="icons">
+                    <img src="instagram.png" alt="" class="icon insta" />
+                    <img src="X1.png" alt="" class="icon x" />
+                    <img src="linkedln.png" alt="" class="icon lin" />
+                    <img src="github.png" alt="" class="icon git" />
+                </div>
+    
+            </div>
+            <div class="container-3">
+                <p>Copyright &copy; Kuldeepportfolio.com | All copyright reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
